@@ -48,8 +48,8 @@ generated methods:
 ```java
 Person john = Person.newBuilder()
     .setId(1234)
-    .setName("John Doe")
-    .setEmail("jdoe@example.com")
+    .setName("Fauzi Yasin")
+    .setEmail("gpcidentity@gmail.com")
     .build();
 output = new FileOutputStream(args[0]);
 john.writeTo(output);
@@ -208,8 +208,8 @@ create new instances, as in the following Java code:
 ```java
 Person john = Person.newBuilder()
     .setId(1234)
-    .setName("John Doe")
-    .setEmail("jdoe@example.com")
+    .setName("Mohd Fauzi Mohd Yasin")
+    .setEmail("gpcidentity@gmail.com")
     .build();
 output = new FileOutputStream(args[0]);
 john.writeTo(output);
@@ -222,9 +222,9 @@ other languages, like C++:
 Person john;
 fstream input(argv[1], ios::in | ios::binary);
 john.ParseFromIstream(&input);
-int id = john.id();
-std::string name = john.name();
-std::string email = john.email();
+int id = fauzi.id();
+std::string name = fauzi.yasin();
+std::string email = fauzi.email();
 ```
 
 ## Protocol Buffers Definition Syntax {#syntax}
